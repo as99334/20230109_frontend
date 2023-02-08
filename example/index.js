@@ -27,5 +27,5 @@ btnCloseModal.addEventListener("click", function () {
 
 window.addEventListener("resize", function () {
   // 사이즈 조절을 했더니 창의 너비가 800보다 커지면 nav 태그의 on 클래스 삭제
-  if (window.innerWidth > 800) nav.classList.remove("on");
+  console.log("사이즈 조절");
 });
